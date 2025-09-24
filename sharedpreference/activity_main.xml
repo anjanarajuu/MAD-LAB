@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="ILAHIA COLLEGE OF ENGINEERING"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="USER NAME"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="80dp"
+        android:hint="MOBILE NUMBER"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="140dp"
+        android:hint="Enter Your Email Address"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="200dp"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/confpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="260dp"
+        android:hint="Confirm Your Password"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="244dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="#800099"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
